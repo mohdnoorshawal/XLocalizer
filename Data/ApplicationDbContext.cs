@@ -18,7 +18,7 @@ namespace DBLocalizationSample.Data
         public DbSet<XDbResource> XDbResources { get; set; }
 
 
-        //test
+        //tes
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<XDbResource>()
